@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    background-color: #d8f3ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #00bb2d !important;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+
+a {
+    color: #d8f3ff !important;
+}
+
+
+/* Hero Image */
+
+#hero-outer {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: auto;
+    width: 100%;
+    animation-duration: 5s;
+}
+
+figure {
+    margin-left: auto;
+    display: inline-flex;
+    margin-top: 70px;
+}
+
+h3 {
+    color: #034a75;
+}
+
+
+/* CATEGORIES */
+
+.category img {
+    width: 350px;
+    height: auto;
+    margin: 2px;
+}
+
+
+/* MAP AND BUTTONS */
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-style {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #d8f3ff;
+    font-size: 16px;
+    padding: 12px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.btn-pos1 {
+    top: 54%;
+    left: 60%;
+}
+
+.btn-pos2 {
+    top: 41%;
+    left: 62%;
+}
+
+.btn-pos3 {
+    top: 43%;
+    left: 36%;
+}
+
+.btn-pos4 {
+    top: 52%;
+    left: 28%;
+}
+
+.btn-pos5 {
+    top: 58%;
+    left: 43%;
+}
+
+.container .btn-style:hover {
+    background-color: transparent;
+    color: #00bb2d;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00bb2d;
+    border-top: #d8f3ff;
+    color: #d8f3ff;
+    font-family: 'Roboto', sans-serif;
+}
