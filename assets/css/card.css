@@ -1,0 +1,108 @@
+article,
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-card {
+    padding: 0 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mycard {
+    height: 200px;
+    max-width: 250px;
+    margin: 10px 2px;
+    background: #d8f3ff;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(3, 74, 117, 0.2);
+}
+
+.mycard:hover {
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(3, 74, 117, 0.2);
+    margin-bottom: 10px;
+}
+
+.mycard .img-card {
+    height: 200px;
+    width: 100%;
+}
+
+.mycard .img-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mycard .top-text {
+    padding: 5px;
+}
+
+.mycard .top-text .name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #034a75;
+    text-align: center;
+}
+
+.mycard .top-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #00bb2d;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mycard .bottom-text {
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: #d8f3ff;
+    color: #034a75;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.mycard:hover .bottom-text {
+    opacity: 1;
+    visibility: visible;
+    backface-visibility: hidden;
+}
+
+.mycard .bottom-text .text-card {
+    text-align: justify;
+}
+
+.mycard .bottom-text .btn-card {
+    margin: 10px 0;
+}
+
+.mycard .bottom-text .btn-card a {
+    text-decoration: none;
+    background: #00bb2d;
+    color: #d8f3ff;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+
+.mycard .bottom-text .btn-card a:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 768px) {
+    .container-card {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .mycard {
+        max-width: 700px;
+        margin: 20px 0;
+    }
+}
