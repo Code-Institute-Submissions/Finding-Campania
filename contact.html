@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <!--- Navbar --->
+        <!--- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="index.html"> <img src="assets/images/onlinelogomaker-092420-1652-0247.png" alt="FC Logo" width="50px">Finding Campania</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,11 +57,37 @@
                 <img class="hero-image img-fluid rounded-sm animate__animated animate__zoomIn" src="./assets/images/napoli_da_fratelli-italia.it.jpg" id="hero-image" alt="Vesusio" />
             </figure>
             <section class="container-fluid">
-                <h1 class="text-center">One territory... infinite destinations!</h1>
-            </section>
-            <section>
-                <form action="/action_page.php" method="post">
-
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <fieldset>
+                        <legend class="text-center">Contact me</legend>
+                        <div class="form-group md-1">
+                            <label for="name">Name</label>
+                            <input class="form-control" id="name" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group mb-1">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group mb-1">
+                            <label for="FormControlSelect">I contact you for ...</label>
+                            <select class="form-control" id="FormControlSelect">
+                                <option>advice on my trip.</option>
+                                <option>information on my destination.</option>
+                                <option>report new destinations.</option>
+                                <option>propose discounts and offers to users.</option>
+                                <option>cooperations</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-1">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Your message here" required></textarea>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center mt-3">
+                                <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
                 </form>
             </section>
         </article>
