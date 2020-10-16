@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&family=Roboto:wght@300;400;500&display=swap');
+* {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #d8f3ff;
     font-family: 'Roboto', sans-serif;
@@ -13,6 +20,7 @@ body {
 
 .navbar-brand {
     font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
 }
 
 .active a {
@@ -25,19 +33,24 @@ body {
 
 a {
     color: #d8f3ff !important;
+    font-size: 1.6rem;
+}
+
+.navbar-toggler-icon {
+    font-size: 2rem;
 }
 
 
 /* Hero Image */
 
 #hero-outer {
-    height: 350px;
+    height: 35rem;
     width: 100%;
     overflow: hidden;
     position: relative;
     margin-left: auto;
     display: inline-flex;
-    margin-top: 70px;
+    margin-top: 7rem;
 }
 
 #hero-image {
@@ -49,6 +62,7 @@ a {
 h1 {
     color: #034a75;
     font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
 }
 
 
@@ -56,11 +70,11 @@ h1 {
 
 h2 {
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 3rem;
     color: #d8f3ff;
     position: absolute;
-    left: 120px;
-    top: 70px;
+    left: 12rem;
+    top: 7rem;
 }
 
 h2:hover {
@@ -68,13 +82,13 @@ h2:hover {
 }
 
 .category a img {
-    width: 300px;
+    width: 30rem;
     height: auto;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .category:hover a img {
-    border: 2px #034a75 solid;
+    border: .2em #034a75 solid;
 }
 
 
@@ -83,14 +97,15 @@ h2:hover {
 .container {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 60rem;
 }
 
-.container img {
+.container figure img {
     width: 100%;
     height: auto;
     border-radius: 2%;
-    margin-top: 20px;
+    margin-top: 2rem;
+    opacity: 0.9;
 }
 
 
@@ -102,8 +117,8 @@ h2:hover {
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
     color: #d8f3ff;
-    font-size: 16px;
-    padding: 12px 5px;
+    font-size: 2rem;
+    padding: 1.2em .5em;
     border: none;
     cursor: pointer;
     border-radius: 50%;
@@ -146,6 +161,7 @@ h2:hover {
 .btn-submit {
     background-color: #00bb2d;
     color: #d8f3ff;
+    font-size: 1.6rem;
 }
 
 .btn-submit:hover {
@@ -158,14 +174,24 @@ fieldset {
     color: #034a75;
 }
 
+fieldset>legend {
+    font-size: 2rem;
+}
+
+.form-group>label,
+.form-group>input,
+.form-control,
+option {
+    font-size: 1.6rem;
+}
+
 
 /* FOOTER */
 
 footer {
-    margin-top: 20px;
-    padding: 3px;
+    margin-top: 10rem;
+    padding: 0.5em;
     background-color: #00bb2d;
-    border-top: #d8f3ff;
     color: #d8f3ff;
     font-family: 'Roboto', sans-serif;
 }
@@ -174,30 +200,30 @@ footer {
     color: #034a75;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75em) {
     h2 {
-        left: 180px;
+        left: 18rem;
     }
     #tab-screen {
-        left: 440px;
-        top: 70px;
+        left: 44rem;
+        top: 7rem;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 62em) {
     h2 {
-        left: 120px;
+        left: 12rem;
     }
     #tab-screen {
-        left: 320px;
+        left: 32rem;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 48em) {
     h2 {
-        left: 200px;
+        left: 20rem;
     }
     #tab-screen {
-        left: 200px;
+        left: 20rem;
     }
 }
