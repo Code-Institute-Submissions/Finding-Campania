@@ -68,7 +68,7 @@ h1 {
 
 /* CATEGORIES */
 
-h2 {
+.category a h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     color: #d8f3ff;
@@ -77,12 +77,12 @@ h2 {
     top: 7rem;
 }
 
-h2:hover {
+.category a h2:hover {
     color: #034a75;
 }
 
 .category a img {
-    width: 30rem;
+    width: 100%;
     height: auto;
     margin-top: 2rem;
 }
@@ -156,6 +156,34 @@ h2:hover {
 }
 
 
+/* about.html */
+
+.container-fluid .img-thumbnail {
+    height: 20rem;
+    width: auto;
+    margin-right: 3rem;
+}
+
+figure .img-thumbnail {
+    height: 30rem;
+    width: auto;
+}
+
+.container-fluid p,
+em {
+    font-size: 1.5rem;
+    color: #034a75;
+}
+
+.container-fluid h2 {
+    margin-top: 8rem;
+    color: #034a75;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+
 /* FORM IN contact.html */
 
 .btn-submit {
@@ -216,8 +244,11 @@ small {
     color: #034a75;
 }
 
-@media screen and (max-width: 75em) {
-    h2 {
+
+/* media queries index.html */
+
+@media screen and (max-width: 74.9375em) {
+    .category a h2 {
         left: 18rem;
     }
     #tab-screen {
@@ -226,8 +257,8 @@ small {
     }
 }
 
-@media screen and (max-width: 62em) {
-    h2 {
+@media screen and (max-width: 61.9375em) {
+    .category a h2 {
         left: 12rem;
     }
     #tab-screen {
@@ -236,10 +267,37 @@ small {
 }
 
 @media screen and (max-width: 48em) {
-    h2 {
-        left: 20rem;
+    .category a h2 {
+        left: 17rem;
     }
     #tab-screen {
-        left: 20rem;
+        left: 17rem;
+    }
+}
+
+@media screen and (max-width: 28.125em) {
+    .category a h2 {
+        left: 15rem;
+    }
+    #tab-screen {
+        left: 15rem;
+    }
+    .navbar-brand {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 20.625em) {
+    .navbar-brand {
+        font-size: large;
+    }
+}
+
+
+/* media queries contact.html */
+
+@media screen and (min-width: 62em) {
+    aside .row {
+        margin-top: 12rem;
     }
 }
