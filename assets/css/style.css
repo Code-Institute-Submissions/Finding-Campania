@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&family=Roboto:wght@300;400;500&display=swap');
 * {
     font-size: 10px;
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -21,6 +29,10 @@ body {
 .navbar-brand {
     font-family: 'Permanent Marker', cursive;
     font-size: xx-large;
+}
+
+.navbar-brand img {
+    width: 5em;
 }
 
 .active a {
@@ -49,6 +61,8 @@ a {
     overflow: hidden;
     position: relative;
     margin-left: auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 7rem;
 }
@@ -56,6 +70,7 @@ a {
 #hero-image {
     height: auto;
     width: 100%;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
 }
 
@@ -113,6 +128,7 @@ h1 {
 
 .btn-style {
     position: absolute;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
@@ -184,7 +200,7 @@ em {
 }
 
 
-/* FORM IN contact.html */
+/* FORM in contact.html */
 
 .btn-submit {
     background-color: #00bb2d;
@@ -245,7 +261,7 @@ small {
 }
 
 
-/* media queries index.html */
+/* media queries of the link to categories in index.html */
 
 @media screen and (max-width: 74.9375em) {
     .category a h2 {
@@ -282,6 +298,7 @@ small {
     #tab-screen {
         left: 15rem;
     }
+    /* media queries of the navbar-brand */
     .navbar-brand {
         font-size: x-large;
     }

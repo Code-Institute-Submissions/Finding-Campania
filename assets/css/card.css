@@ -1,8 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 article,
 section {
     margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -10,7 +22,11 @@ section {
     padding: 0 4rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -18,12 +34,16 @@ section {
     height: 20rem;
     max-width: 22.5rem;
     background: #d8f3ff;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
+    -webkit-box-shadow: 2px 2px 5px rgba(3, 74, 117, 0.2);
     box-shadow: 2px 2px 5px rgba(3, 74, 117, 0.2);
 }
 
 .mycard:hover {
     height: 40rem;
+    -webkit-box-shadow: 5px 5px 10px rgba(3, 74, 117, 0.2);
     box-shadow: 5px 5px 10px rgba(3, 74, 117, 0.2);
     margin-bottom: 1rem;
 }
@@ -36,6 +56,7 @@ section {
 .mycard .img-card img {
     height: 100%;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: .3rem;
 }
@@ -66,12 +87,15 @@ section {
     color: #034a75;
     opacity: 0;
     visibility: hidden;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
     transition: 0.1s;
 }
 
 .mycard:hover .bottom-text {
     opacity: 1;
     visibility: visible;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
@@ -90,7 +114,11 @@ section {
     color: #d8f3ff;
     padding: .5em .8em;
     border-radius: .3em;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
 
@@ -99,12 +127,18 @@ section {
 }
 
 .mycard .bottom-text .btn-card a:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
     transform: scale(0.9);
 }
 
 @media screen and (max-width: 48em) {
     .container-card {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin: 5rem;
     }
