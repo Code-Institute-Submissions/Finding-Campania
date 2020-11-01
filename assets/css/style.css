@@ -285,7 +285,7 @@ small {
     }
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 47.9375em) {
     .category a h2 {
         left: 17rem;
     }
@@ -296,9 +296,6 @@ small {
 
 @media screen and (max-width: 28.125em) {
     .category a h2 {
-        left: 15rem;
-    }
-    #tab-screen {
         left: 15rem;
     }
     /* media queries of the navbar-brand */

@@ -132,7 +132,7 @@ section {
     transform: scale(0.9);
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 38.0625em) {
     .container-card {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -140,9 +140,10 @@ section {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        margin: 5rem;
+        margin: 5rem auto;
     }
     .mycard {
+        min-width: 22.5rem;
         max-width: 70rem;
         margin: 2rem 0;
     }
