@@ -1,4 +1,4 @@
-# <img src=".\assets\images\logo.png" alt="Logo" style="zoom:2%;"/> Finding Campania
+# Finding Campania
 
 **Code Institute - Milestone Project for User-Centric Frontend Development**
 
