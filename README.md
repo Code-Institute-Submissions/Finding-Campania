@@ -1,10 +1,10 @@
-# <img src=".\assets\images\logo.png" alt="Logo" style="zoom:12%;"/> Finding Campania
+# Finding Campania
 
 **Code Institute - Milestone Project for User-Centric Frontend Development**
 
-[View webpage in GitHub Pages]( https://github.com/maxthor500/Finding-Campania)
+[View webpage in GitHub Pages](https://github.com/maxthor500/Finding-Campania)
 
-![Multi Device Website Mockup](.\assets\mockup\Multi Device Website Mockup Generator.png)
+![Multi Device Website Mockup](.\assets\mockup\MultiDevicePreview.png)
 
 This site was designed by me to answer all the questions of people who ask me: where are you from? What can I do coming to your side? I imagined a gallery of all the most beautiful places to see and what to do in the area I come from. It is a magnifying glass on my territory often seen as sun, pizza and Camorra.
 
@@ -14,9 +14,6 @@ This project is the first of four Milestone Projects that make up the Full Stack
 of 3 pages using HTML5 and CSS3, along with any other technologies you would like to use.
 
 [Click here to see the website live](https://maxthor500.github.io/Finding-Campania/)
-
-[TOC]
-
 
 ## User Experience
 
@@ -34,7 +31,7 @@ This section provides insight into the UX process, focusing on who the Finding C
 - to make the Campania appear as a beautiful region of Italy that must visited over and over again.
 - to be able to easily contact Finding Campania with any inquiries or questions.
 
-The business goals of this website are:
+### The business goals of this website are:
 
 * Build brand awareness.
 * Collaborate with Hotels, B&Bs, museums, tourist guides,  etc...
@@ -57,21 +54,17 @@ The business goals of this website are:
 
 - as the owner of a company linked to the tourism sector, I want a website that is transparent so that there are no unexpected clauses or costs.
 
-  
 
 ### Strategy
 
 The main goal of the website is to attract users interested in organizing a trip to Campania, Italy, or to a single location that the site shows.
-
 My goal in design is to make everything as intuitive as possible with the interactivity of the images making the UX simple and fun.
-
 At the moment there will be only an English version of the site and the connection to the various social networks will be fictitious, as there are no real contacts, and to improve it in the future replace the Hero image with a video to increase the visiting hours of the Home page.
 Also, the website doesn't show all possible locations but only my selection of places I know.
 
 ### Scope
 
 I would like to provide the possibility for users who want to visit Campania to be able to create an itinerary by themselves without wasting time in the different types of travel sites that show they offers on offers for places that are very distant from each other.
-
 A user who chooses to visit this region in a targeted manner or who lives there for short periods has all the places that he can visit near him available.
 
 ### Structure
@@ -80,10 +73,10 @@ I started developing my own wireframes using Balsamiq for each page on mobile, t
 
 ### Skeleton
 
-*  [Home](./assets/mockup/Home.pdf)
+* [Home](./assets/mockup/Home.pdf)
 * [About](./assets/mockup/About.pdf)
 * [Adventures](./assets/mockup/Categories.pdf)
-* [Art  & Culture](./assets/mockup/Categories.pdf)
+* [Art & Culture](./assets/mockup/Categories.pdf)
 * [Beaches](./assets/mockup/Categories.pdf)
 * [Gallery](./assets/mockup/Gallery.pdf)
 * [Contact](./assets/mockup/Contact.pdf)
@@ -127,7 +120,6 @@ The project consists of four different pages, all of which can be accessed throu
 In the Home there is a link to the three categories, which I have identified based on what people are looking for. Further down there is an image of the region as a map with the position of the provinces inside, and clicking on one of the provinces you are directed to the Gallery, which will show the cards of the places ordered by province, to allow a more targeted search based on the province you want to visit.
 
 The three categories identified are:
-
 * Adventures in which there are cards representing the places where you can make excursions and playful activities,
 * Art & Culture where there are cards representing museums, castles and places of art,
 * Beaches where there are cards with all the most beautiful beaches.
@@ -143,7 +135,6 @@ To create Responsive CSS Cards with Hover Animation I found suitable for what I 
 ### Features left to Implement
 
 In the future, I would like:
-
 * to add the links to the right social networks, because now the pages of the various social networks do not yet exist.
 * add every places to visit because I selected just a few places for each category.
 * to replace the hero image with a video presentation.
@@ -194,12 +185,9 @@ In the future, I would like:
 ## Testing
 
 On the homepage, users can reach the category pages (adventures, art & culture, beaches) by clicking on the respective images or they can click on one of the provinces on the map, thus being directed to the places below that province in the gallery. In this way, the user is facilitated in the selection of places based on what he is most interested in or based on proximity.
-
 On the pages of the three categories and in the gallery the various places shown in the cards that show an image and the name of the place.
-
 In the desktop version, simply by hovering over the tab, it expands to show a description and two buttons that link to a site where you can read a more detailed description and where they are on the map.
 In the mobile and tablet version, you must instead click on the image of the place to expand the card.
-
 Users can contact the website via the form in contact.html.
 
 **General Testing**
@@ -244,7 +232,7 @@ Users can contact the website via the form in contact.html.
 
   - The developer used **W3C CSS Validation Service** and **W3C Markup Validation Service** to check the validity of the website code.
 
-- [Mobile friendl Test](https://search.google.com/test/mobile-friendly)
+- [Mobile friendly Test](https://search.google.com/test/mobile-friendly)
 
 
 ## Deployment
@@ -299,6 +287,17 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 #### 	Content
 
 - Most of the descriptions were taken from [Wikipedia](https://www.wikipedia.org/).
+- When I can't find a good description with the English version of Wikipedia I used the Italian version of Wikipedia, appropriately marked under the Read more button.
+- I didn't find a good description on Wikipedia and I used the following site:
+    - [Gole di Caccaviola](https://www.jammway.it/le-gole-caccaviola-cusano-mutri/)
+    - [Mount Terminio](https://www.summitpost.org/monte-terminio-monti-picentini/153276)
+    - [Mount Faito](https://www.sorrentohiking.com/the_paths/faito/)
+    - [Trentina](https://www.ilturista.info/guide.php?cat1=4&cat2=8&cat3=17&cat4=117&lan=ita)
+    - [Grassan Park](https://amigosdelmotor.com/3682-parco-del-grassano-activities-and-contacts.html)
+    - [Valle delle Ferrier](http://www.valledelleferriere.it/p/blog-page.html)
+    - [Lancellotti Castle](https://www.progettostoriadellarte.it/2017/03/15/il-castello-lancellotti-di-lauro/)
+    - [Bay of Trentova](https://www.trovaspiagge.it/spiaggia-trentova/)
+    - [Cala Bianca](https://www.ilcilentano.it/spiaggia-cala-bianca/)
 
 #### 	Media
 
@@ -318,6 +317,7 @@ I would like to thank the following:
 
 * My mentor, **Spencer Barriball**, for his guidance, wisdom and encouragement throughout the project.
 * **CI Staff** and **Slack Community** for their assistance with minor coding issues.
+* to write my README.md it was useful to follow that of [Anna Gilhespy](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) and [JackSheehy15](https: // github.com/jacksheehy15/milestone-project-1/blob/master/README.md)
 
 **The content of this Website is for educational purposes only.**
 
