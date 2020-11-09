@@ -4,7 +4,7 @@
 
 [View webpage in GitHub Pages](https://github.com/maxthor500/Finding-Campania)
 
-![Multi Device Website Mockup](.\assets\mockup\MultiDevicePreview.png)
+![Multi Device Website Mockup](./assets/mockup/MultiDevicePreview.png)
 
 This site was designed by me to answer all the questions of people who ask me: where are you from? What can I do coming to your side? I imagined a gallery of all the most beautiful places to see and what to do in the area I come from. It is a magnifying glass on my territory often seen as sun, pizza and Camorra.
 
@@ -317,7 +317,7 @@ I would like to thank the following:
 
 * My mentor, **Spencer Barriball**, for his guidance, wisdom and encouragement throughout the project.
 * **CI Staff** and **Slack Community** for their assistance with minor coding issues.
-* to write my README.md it was useful to follow that of [Anna Gilhespy](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) and [JackSheehy15](https: // github.com/jacksheehy15/milestone-project-1/blob/master/README.md)
+* to write my README.md it was useful to follow that of [Anna Gilhespy](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) and [JackSheehy15](https://github.com/jacksheehy15/milestone-project-1/blob/master/README.md)
 
 **The content of this Website is for educational purposes only.**
 
